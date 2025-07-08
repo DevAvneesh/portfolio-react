@@ -6,35 +6,67 @@ const Journey = () => {
   const data = {
     Work: [
       {
-        company: "Zemoso Technologies",
-        role: "Java Full Stack Developer",
-        location: "Remote Work",
-        date: "17th April 2024 - 10th December 2024",
+        company: "Raajsans Solutions Pvt. Ltd",
+        role: "Full Stack Developer(ASP.NET Web Forms)",
+        location: "Hybrid Work",
+        date: "17th May 2023 - 7th July 2025",
         description:
-          "Developed a loan management application using React.js, TypeScript, and Material UI with responsive design.",
-        logo: "https://media.licdn.com/dms/image/C560BAQFwM9v8e93k5w/company-logo_200_200/0/1630574298043?e=2147483647&v=beta&t=vZ3AqaGqB-eG7-Mu5hmNQJq6urznBoGT-KMKb3zbnGg",
+          "Developed 6+ web applications using php, Next.Js, ASP.NET Web Forms, C#, and SQL Server, MySQL. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        logo: "https://raajsans.org/img/styleswitcher/logos/yellow.png",
         icon: "👨‍💻",
       },
       {
-        company: "SysIntelli",
-        role: "AI Intern",
-        location: "Onsite",
-        date: "1st Jan 2024 - 1st April 2024",
-        description: "Worked on chatbot systems and built ML models using Python and NLP libraries.",
-        logo: "https://www.sysintelli.com/img/logo.png",
+        company: "Edutech Soft Pvt. Ltd.",
+        role: "Trainee Programmer",
+        location: "Office Work",
+        date: "1st April 2022 - 1st April 2023",
+        description: "Learned full statck development in ASP.NET Web Forms and worked on various projects.",
+        logo: "http://www.edutechsoft.org/assets/images/favicon.ico",
         icon: "👨‍💻",
       },
     ],
     Education: [
-      {
-        company: "ABC Institute of Technology",
-        role: "Master of Computer Applications",
-        location: "Bangalore, India",
-        date: "2022 - 2024",
-        description: "Specialized in full stack development and data science.",
-        logo: "https://cdn-icons-png.flaticon.com/512/3135/3135755.png",
-        icon: "🎓",
-      },
+       
+  
+  
+  {
+    "School/College": "SPPU Pune University",
+    "Degree": "Master of Computer Applications (MCA)",
+    "location": "Pune, Maharashtra",
+    "date": "2023 - 2025",
+    "description": "Pursuing MCA from SPPU Pune University.",
+    "logo": "https://th.bing.com/th/id/OIP.guHXoFOmLsYi-Yp5aOla_AAAAA?w=239&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "icon": "🎓"
+  },
+   {
+    "School/College": "BRABU University",
+    "Degree": "Bachelor of Computer Applications (BCA)",
+    "location": "Bihar, India",
+    "date": "2019 - 2023",
+    "description": "Graduated with BCA under BRABU University.",
+    "logo": "https://brabu.ac.in//Content/assets/img/favicons/favicon-16x16.png",
+    "icon": "🎓"
+  },
+  {
+    "School/College": "SRKG College, Sitamarhi",
+    "Degree": "Intermediate",
+    "location": "Bihar, India",
+    "date": "2017 - 2019",
+    "description": "Completed Intermediate under BSEB Board.",
+    "logo": "https://www.bing.com/th/id/OIP.RkRbyp_IsH3GmRPN3zMlHgHaHa?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "icon": "🎓"
+  },
+  {
+    "School/College": "High School Dumra",
+    "Degree": "Matriculation",
+    "location": "Bihar, India",
+    "date": "2016 - 2017",
+    "description": "Completed Matriculation under BSEB Board.",
+    "logo": "https://www.bing.com/th/id/OIP.RkRbyp_IsH3GmRPN3zMlHgHaHa?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "icon": "🎓"
+  },
+  
+ 
     ],
   };
 

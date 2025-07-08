@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
+  const gotoContact = () =>{
+    navigate("/contact");
+  }
+
   const skills = [
     { name: "ASP.NET (Web Forms)", value: 85 },
     { name: "React.Js", value: 70 },
@@ -49,7 +55,7 @@ const About = () => {
           </p>
           <div className="flex justify-center md:justify-start space-x-6 text-blue-400 mt-8">
             <button className="bg-blue-400 rounded-3xl px-7 py-3 text-white text-[18px] font-semibold hover:bg-blue-500">Download CV</button>
-            <button className="border-blue-400 rounded-3xl px-4 py-2 border-2">Contact Me</button>
+            <button className="border-blue-400 rounded-3xl px-4 py-2 border-2" onClick={gotoContact}>Contact Me</button>
 
           </div>
         </div>

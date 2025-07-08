@@ -1,5 +1,7 @@
 import React from "react";
 import Ecom from "../assets/images/Ecom.png";
+import sd from "../assets/images/sd.png";
+import HS from "../assets/images/HS.png";
 import porfolio from "../assets/images/portfolio.png";
 
 const projectData = [
@@ -7,37 +9,109 @@ const projectData = [
     title: "Portfolio Website",
     image: porfolio,
     description: "A personal website to showcase my work and resume.",
-    technologies: ["React", "Tailwind CSS", "Netlify"],
+    technologies: ["React", "Tailwind CSS"],
     date: "Jan 2024",
     views: 120,
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/",
+  },
+  {
+    title: "Housing Society Management System",
+    image: HS,
+    description: "A web app for managing housing society operations with user, committe, employee and admin panels. It was my final year project.",
+    technologies: ["Next.Js", "MYSQL", "RozorPay"],
+    date: "May 2025",
+    views: 98,
+    github: "https://github.com/",
+  },
+  {
+    title: "Shadi Portal",
+    image: sd,
+    description: "A matrimonial app with user registation, branch login, admin panel and more.",
+    technologies: ["PhP", "MYSQL", "PhonePe"],
+    date: "May 2025",
+    views: 98,
+    github: "https://github.com/",
+  },
+  {
+    title: "Attendence System",
+    image: "/images/app.png",
+    description: "A flutter app for managing attendece records with admin panel and user regstration. It is ready to use app for any organization.",
+    technologies: ["Flutter", "Firebase" ],
+    date: "July 2025",
+    views: 120,
+    github: "https://github.com/",
+  },
+  {
+    title: "College ERP (New Version)",
+    image: porfolio,
+    description: "A college ERP system with student, teacher, developer, employee and admin panels. where admin can manage all the reqired functionalities to automate the college management.",
+    technologies: ["ASP.NET", "Bootstrap", "SQL Server"],
+    date: "July 2025",
+    views: 120,
+    github: "https://github.com/",
+  },
+  {
+    title: "MLM web app",
+    image: "/images/app.png",
+    description: "A multi-level marketing web app with user registration, admin panel, and more.",
+    technologies: ["PhP", "MySQL"],
+    date: "Apr 2025",
+    views: 98,
+    github: "https://github.com/",
+  },
+  {
+    title: "Complaint Management System",
+    image: "/images/app.png",
+    description: "A web app for managing complaints with user and admin panels. It is developd for district administration to manage the complaints of citizens.",
+    technologies: ["PhP", "MySQL"],
+    date: "Mar 2025",
+    views: 98,
+    github: "https://github.com/",
   },
   {
     title: "E-commerce App",
     image: Ecom,
     description: "A full-stack app with cart, login, and Stripe integration.",
-    technologies: ["React", "Node.js", "MongoDB"],
-    date: "Feb 2024",
+    technologies: ["React", "Node.js", "MySQL"],
+    date: "Feb 2025",
     views: 98,
-    github: "https://github.com/yourusername/ecommerce",
+    github: "https://github.com/",
   },
   {
-    title: "Chat Application",
-    image: "/images/chatapp.png",
+    title: "School App",
+    image: "/images/app.png",
+    description: "A school management app with student, parent and teacher portals.",
+    technologies: ["Flutter", "Node.js", "SQLServer"],
+    date: "Jan 2025",
+    views: 98,
+    github: "https://github.com/",
+  },
+  {
+    title: "College Mobile App",
+    image: "/images/app.png",
     description: "A real-time chat app using WebSockets and Node.",
     technologies: ["React", "Socket.IO", "Express"],
-    date: "Mar 2024",
+    date: "Nov 2024",
     views: 135,
-    github: "https://github.com/yourusername/chatapp",
+    github: "https://github.com/",
   },
   {
-    title: "Task Manager",
+    title: "AI Powered ITI Job Portal",
     image: "/images/taskmanager.png",
-    description: "Manage your tasks with a beautiful UI and backend API.",
-    technologies: ["Vue", "Firebase", "Tailwind"],
-    date: "Apr 2024",
+    description: "An AI-powered job portal for ITI students with resume builder and job matching.",
+    technologies: ["Flutter", "Firebase", "Dart"],
+    date: "Sep 2024",
     views: 200,
-    github: "https://github.com/yourusername/taskmanager",
+    github: "https://github.com/",
+  },
+  {
+    title: "College ERP (Old Version)",
+    image: porfolio,
+    description: "A college ERP system with student and admin panels.",
+    technologies: ["ASP.NET", "Bootstrap", "SQL Server"],
+    date: "July 2023",
+    views: 120,
+    github: "https://github.com/",
   },
 ];
 
@@ -48,7 +122,7 @@ const Projects = () => {
         Projects
       </h2>
     <hr />
-      <h1 className="text-center my-6 font-mono">Explore my latest projects and creative works</h1>
+      <h1 className="text-center my-6 font-mono">Explore my latest projects and creative works. All these projects are live (Live link will be added later) and hosted by me on the Window Server.</h1>
       <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2">
         {projectData.map((project, index) => (
           <div

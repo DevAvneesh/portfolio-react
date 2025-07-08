@@ -3,19 +3,17 @@ import React from "react";
 const Experience = () => {
   const experienceList = [
     {
-      title: "Software Developer",
-      company: "XYZ Corporation",
-      duration: "Jan 2022 - Present",
-      description:
-        "Developing and maintaining web applications, collaborating with cross-functional teams to deliver quality software solutions.",
-    },
-    {
-      title: "Intern",
-      company: "ABC Solutions",
-      duration: "Jun 2021 - Dec 2021",
-      description:
-        "Assisted in frontend and backend development, wrote unit tests, and helped improve app performance.",
-    },
+  "title": "Full Stack Developer (ASP.NET Web Forms)",
+  "company": "Raajsans Solutions Pvt. Ltd",
+  "duration": "17th May 2023 - 7th July 2025",
+  "description": "Developed 6+ web applications using PHP, Next.js, ASP.NET Web Forms, C#, SQL Server, and MySQL. Collaborated with cross-functional teams to deliver high-quality software solutions."
+},
+{
+  "title": "Trainee Programmer",
+  "company": "Edutech Soft Pvt. Ltd.",
+  "duration": "1st April 2022 - 1st April 2023",
+  "description": "Learned full stack development in ASP.NET Web Forms and worked on various projects."
+}
   ];
 
   return (

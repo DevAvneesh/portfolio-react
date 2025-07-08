@@ -1,6 +1,16 @@
 import React from "react";
 import AvneeshProflePhoto from "../assets/images/AvneeshProfilePhoto.jpeg"; 
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate();
+  const gotoProjects =() =>{
+    navigate("/projects");
+  }
+
+  const gotoContacts = ()=>
+  {
+    navigate("/contact");
+  }
   return (
     <section className="flex flex-col-reverse md:flex-row items-center justify-between  min-h-[80vh]">
       <div className="md:w-1/2 text-center md:text-left">
@@ -11,8 +21,8 @@ const Hero = () => {
           Passionate developer focused on building scalable and efficient web applications.
         </p>
         <div className="flex justify-center md:justify-start space-x-6 text-blue-400 ">
-          <button className="bg-blue-400 rounded-3xl px-7 py-3 text-white text-[18px] font-semibold hover:bg-blue-500">View My Work</button>
-          <button className="border-blue-400 rounded-3xl px-4 py-2 border-2">Contact Me</button>
+          <button className="bg-blue-400 rounded-3xl px-7 py-3 text-white text-[18px] font-semibold hover:bg-blue-500" onClick={gotoProjects} >View My Work</button>
+          <button className="border-blue-400 rounded-3xl px-4 py-2 border-2" onClick={gotoContacts}>Contact Me</button>
 
         </div>
       </div>

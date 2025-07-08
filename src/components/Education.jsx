@@ -3,10 +3,10 @@ import React from "react";
 const Education = () => {
   const educationList = [
     {
-      title: "PhD (Pursuing)",
-      institution: "XYZ Research University",
-      duration: "2025 - Present",
-    },
+  "title": "PhD (Planning)",
+  "institution": "To be decided",
+  "duration": "2025 - Future"
+},
     {
       title: "Master of Computer Application",
       institution: "Sinhgad Institute of Business Administration and Research, Pune",
