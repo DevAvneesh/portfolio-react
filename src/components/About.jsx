@@ -39,7 +39,7 @@ const About = () => {
 
     <>
       <h2 className="text-3xl font-bold text-center text-blue-600 dark:text-white mb-4">
-        About Me
+        About <a href="https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master_3500.m3u8">Me</a>
       </h2>
       <hr className="text-blue-600 " />
       <section className="flex flex-col-reverse md:flex-row items-center space-x-4 justify-between mt-8">
@@ -115,3 +115,4 @@ const About = () => {
 };
 
 export default About;
+
